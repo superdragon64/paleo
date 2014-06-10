@@ -2,38 +2,63 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-footer
+html,body
 {
-	background-color: blue;
+	height: 100%;
 }
+html
+{
+	background: url(http://cdn.styleforum.net/b/b0/350x700px-LL-b0067b11_tipping-intensifies.gif) no-repeat center center fixed;
+	background-size: cover;
+}
+#footer
+{
+	position: fixed;
+	bottom: 0px;
+	display: inline-block;
+	text-align: center;
+	background: blue;
+	width: 100%;
+	height: 40px;
+}
+
 #contain
 {
-	width: 800px;
-	height: 500px;
+	width: 900px;
 	background-color: #F4B45F;
 	margin: 0 auto;
+	min-height: 760px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+	position: dynamic;
 }
 
 #header
 {
 	width: 100%;
-	height: 20px;
+	min-height: 76px;
 	background-color:red;
+	position: dynamic;
 }
 
 #content
 {
 	width: 100%;
-	height: 80%;
-	background-color: yellow;
+	min-height: 684px;
+	background: url(http://www.wordsoverpixels.com/images/76bfeb4418920fd6055201d8ff2fbf2b.jpg);
+	position: dynamic;
+	word-break:keep-all;
 }
 
 #rightMenu
 {
-	width: 20px;
+	width: 200px;
 	height: 100%;
 	float: right;
-	background-color: blue;
+	background-color: green;
+	position: dynamic;
+	margin-top: 8px;
+	margin-right: 8px;
 }
 
 * 
