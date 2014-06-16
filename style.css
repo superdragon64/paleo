@@ -57,7 +57,7 @@ html
 #content
 {
 	width: 100%;
-	min-height: 684px;
+	min-height: 900px;
 	background: url(http://24.media.tumblr.com/29da86d3b92f3d40cde5b5a00e5d34ad/tumblr_ml25o2RnX21rp9k4go1_500.jpg);
 	word-break:keep-all;
 }
@@ -93,13 +93,20 @@ html
 	background-color: transparent;
 }
 
+img.adSpace
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	padding: 5px;
+}
 div#sticker 
 {
     margin:5px 0;
     background:#00FF00;
     width:250px;
 	min-width:250px;
-	height: 50px;
+	min-height: 50px;
 }
 .stick {
     position:fixed;
