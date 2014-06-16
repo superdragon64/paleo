@@ -58,7 +58,7 @@ html
 {
 	width: 100%;
 	min-height: 684px;
-	background: url(http://www.wordsoverpixels.com/images/76bfeb4418920fd6055201d8ff2fbf2b.jpg);
+	background: url(http://24.media.tumblr.com/29da86d3b92f3d40cde5b5a00e5d34ad/tumblr_ml25o2RnX21rp9k4go1_500.jpg);
 	word-break:keep-all;
 }
 .postHead
@@ -68,8 +68,8 @@ html
 	padding: 10px;
 	border-radius: 5px;
 	border: 2px gray solid;
-	margin-top: 5px;
-	margin-left: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
 	float: left;
 	position: relative;
 }
@@ -80,8 +80,8 @@ html
 	padding: 10px;
 	border-radius: 5px;
 	border: 2px gray solid;
-	margin-top: 5px;
-	margin-left: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
 	float: left;
 	position: relative;
 }
@@ -93,7 +93,8 @@ html
 	background-color: transparent;
 }
 
-div#sticker {
+div#sticker 
+{
     margin:5px 0;
     background:#00FF00;
     width:250px;
