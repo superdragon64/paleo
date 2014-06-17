@@ -16,10 +16,16 @@ html
 	position: fixed;
 	bottom: 0px;
 	display: inline-block;
-	text-align: center;
+    text-align: center;
 	background: rgba(0,0,255,.85);
 	width: 100%;
 	height: 40px;
+	color:white;
+}
+
+#push
+{
+	margin-top:8px;
 }
 
 #contain
@@ -42,6 +48,7 @@ html
 
 #topMenu
 {
+	text-align: center;
 	height: 50px;
 	width: 100%;
 	background-color: #00FF00;
@@ -111,6 +118,21 @@ div#sticker
 .stick {
     position:fixed;
     top:0px;
+}
+a.footer
+{
+	text-decoration: none;
+	margin-left:10px;
+	margin-right:10px;
+	color: white;
+}
+a.header
+{
+	text-decoration: none;
+	margin-left:10px;
+	margin-right:10px;
+	color: blue;
+	font-size: 1.2em	
 }
 .clear 
 { 
